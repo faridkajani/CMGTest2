@@ -1,0 +1,49 @@
+/* CSS Document */
+body{
+margin:0;
+padding:0;
+height:100%;
+background-color:#FFFFFF;
+background-image: url(../images/bodyBack.png); /*Fallback Image*/
+background-image: linear-gradient(top, #CCCCCC, #FFFFFF);
+background-image: -o-linear-gradient(top, #CCCCCC, #FFFFFF);
+background-image: -moz-linear-gradient(top, #CCCCCC, #FFFFFF);
+background-image: -webkit-linear-gradient(top, #CCCCCC, #FFFFFF);
+background-image: -ms-linear-gradient(top, #CCCCCC, #FFFFFF);
+font-family:Arial,"MS Trebuchet",sans-serif;
+color:#202020;
+font-size:12px;
+}
+
+a{color: #CC6600; text-decoration:none;}
+
+#mainBody{width:665px; background-color:#FFFFFF; margin:auto; padding:15px 15px 15px 30px;}
+
+/*Left rail styles*/
+#leftRail{float:left; width:169px; border:red 0px solid;}
+figcaption{text-align:right; font-size:10px;}
+
+h1{font-size:18px; font-family: Georgia,"Times New Roman",Times,serif and Arial,"MS Trebuchet",sans-serif; }
+
+#mainArticle header p{margin:0;padding:0}
+
+/*Content rail styles*/
+#contentRail{float:left; border:black 0px solid; width:485px; padding:0 0 0 10px;}
+h3, h4 {margin:0; padding:0}
+h4{font-weight:normal}
+#mainText{font-size:14px;}
+.dateTime{margin:0; padding:0}
+
+
+/*Generic Navigation links*/
+#genericNav ul{padding-top:5px; border-top:#202020 1px dotted; margin-left:0; padding-left:0}
+#genericNav ul li{ list-style-type:none; display:inline; border-right:#202020 1px solid; padding:0 9px 0 25px;}
+#commentLink{background:url(../images/sprites.gif) 5px -479px no-repeat}
+#emailLink{background:url(../images/sprites.gif) 5px -254px no-repeat}
+#printLink{background:url(../images/sprites.gif) 5px -299px no-repeat}
+#shareLink{background:url(../images/sprites.gif) 5px -343px no-repeat}
+#largerTypeLink{background:url(../images/sprites.gif) 5px -390px no-repeat; border-right:0 !important;}
+#smallerTypeLink{background:url(../images/sprites.gif) 5px -435px no-repeat; border-right:0 !important;}
+
+
+
